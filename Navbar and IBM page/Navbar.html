@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Navbar</title>
+  <style>
+    .box{
+        background-color: rgb(0, 160, 228);
+        height: 520px;
+        width: 1000px;
+        border-style: solid;
+        border-color: black;
+    }
+    ul {
+        list-style-type: none;
+        margin: 11px;
+        padding: 10px;
+        background-color: #484848;
+        }
+    li {
+        display: inline;
+        color: white;
+        padding: 10px 16px;
+    }
+    li:hover{
+        background-color: #111;
+    }
+     @font-face {
+            font-family: 'Ahkio-W00-Regular';
+            src: url('fonts/Ahkio-W00-Regular.ttf') format('truetype');
+    }
+    #heading{
+        font-family: 'Ahkio-W00-Regular';
+        word-spacing: 5px;
+        text-align: center;
+        padding: 10px;
+
+        }
+    #IBM {
+    position: relative;
+    left: 390px;
+    height: 60px;
+    width: 200px;
+    padding-top:2px ;
+    }
+    #alpha {
+        height: 150px;
+        width: 150px;
+        border-radius: 50%;
+        border-style: solid;
+        border-color: #111;
+        margin-left: 90px;
+    }
+    #c1 {
+    position: relative;
+    bottom: 140px;
+    left: 300px;
+    height: 50px;
+    width: 390px;
+    }
+    #para1 {
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-weight: bold;
+        font-size: 17px;
+        text-align: justify;
+    }
+    #c2 {
+        left: 20px;
+        position: relative;
+        height: 50px;
+        width: 360px;
+    }
+    #para2 {
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-weight: bold;
+        font-size: 17px;
+        text-align: justify;
+    }
+    #c3 {
+    position: relative;
+    bottom: 115px;
+    left: 700px;
+    height: 50px;
+    width: 250px;
+    }
+    #para3 {
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-weight: bold;
+        font-size: 17px;
+        text-align: justify;
+    }
+  </style>
+</head>
+
+<body>
+    <ul>
+        <li>Home</li>
+        <li>About</li>
+        <li>Contact</li>
+        <li>Other</li>
+    </ul>
+    <div class="box">
+        <h1 id="heading">
+            IBM DATA SCIENCE TOOLS
+        </h1>
+        <div>
+            <img id="IBM" src="IBM.png" alt="">
+        </div>
+        <div id="image">
+            <img id="alpha" src="alpha.png" alt="">
+        </div>
+        <div id="c1">
+            <p id="para1">A relational database management system designed for high-performance data storage and analytics. It supports AI-driven automation, scalability, and multi-cloud environments.</p>
+        </div>
+        <div id="c2">
+            <p id="para2">powerful statistical analysis and predictive modeling tool used for data analysis, hypothesis testing, and machine learning. It is widely used in research,business intelligence, and social sciences.</p>
+        </div>
+        <div id="c3">
+            <p id="para3">A business intelligence and analytics platform that provides data visualization, reporting, and AI-powered insights. It helps organizations make data-driven decisions with interactive dashboards.</p>
+        </div>
+    </div>
+</body>
+
+</html>
